@@ -64,6 +64,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     this.mem.available += node.mem.available;
     return node;
   }
+
   private randomInteger(min: number = 0, max: number = 100): number {
     return Math.floor(Math.random() * max) + 1;
   }
